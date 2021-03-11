@@ -1,0 +1,23 @@
+@import "styles/style";
+
+.navbar {
+    background-color: $color-light;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 0;
+}
+
+.navbarButton {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    flex-direction: column;
+    text-align: center;
+    span {
+        display: flex;
+        justify-content: center;
+        color: rgb(9, 216, 95);
+    }
+}

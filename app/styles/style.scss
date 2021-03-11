@@ -1,0 +1,28 @@
+$color-base: #f2af29;
+$color-accent: #ad343e;
+$color-dark: #000000;
+$color-light: #e0e0ce;
+$color-background: #474747;
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border: 0;
+}
+
+.topContainer {
+    background-color: $color-background;
+    height: 100%;
+    margin: 0;
+    border: 0;
+    padding: 1rem;
+}
+
+:export {
+    colorBase: $color-base;
+    colorAccent: $color-accent;
+    colorDark: $color-dark;
+    colorLight: $color-light;
+    colorBackground: $color-background;
+}
